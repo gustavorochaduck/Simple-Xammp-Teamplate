@@ -34,8 +34,9 @@ Table of Contents:
 
 1. Create Project Directory: Create a new folder to store your project’s files and code (e.g., myproject).
 2. Navigate to the Project Directory:
-
+```bash
 cd myproject
+```
 
 3. Start the Docker Services:
 ```bash
