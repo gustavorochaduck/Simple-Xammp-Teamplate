@@ -39,7 +39,7 @@ cd myproject
 
 3. Start the Docker Services:
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 ⸻
 
@@ -69,16 +69,16 @@ Make sure that all Docker services are running before accessing these addresses.
 6. Starting, Stopping, & Managing Docker
 
 Stop Services:
-
-docker-compose stop
-
+```bash
+docker compose stop
+```
 Start Services:
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 Stop and Remove Containers:
 ```bash
-docker-compose down
+docker compose down -d
 ```
 ⸻
 
