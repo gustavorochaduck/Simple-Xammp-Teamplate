@@ -38,9 +38,9 @@ Table of Contents:
 cd myproject
 
 3. Start the Docker Services:
-
+```bash
 docker-compose up -d
-
+```
 ⸻
 
 4. Accessing the Application
@@ -73,13 +73,13 @@ Stop Services:
 docker-compose stop
 
 Start Services:
-
+```bash
 docker-compose up -d
-
+```
 Stop and Remove Containers:
-
+```bash
 docker-compose down
-
+```
 ⸻
 
 7. Further Exploration
@@ -89,8 +89,9 @@ docker-compose down
 ⸻
 
 8. Credentials
-
+```yaml
 MYSQL_ROOT_PASSWORD: 123456789
 MYSQL_DATABASE: my_database
 MYSQL_USER: dev_user
 MYSQL_PASSWORD: 123456789
+```
