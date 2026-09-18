@@ -63,5 +63,10 @@ This is a guide to setting up a local web development environment using Docker a
 
 
 ---
-
-Let me know if you have any further questions!
+**Credentials**
+```bash
+MYSQL_ROOT_PASSWORD: 123456789
+MYSQL_DATABASE: my_database
+MYSQL_USER: dev_user
+MYSQL_PASSWORD: 123456789
+```
