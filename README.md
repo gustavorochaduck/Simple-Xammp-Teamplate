@@ -79,7 +79,7 @@ docker compose up -d
 ```
 Stop and Remove Containers:
 ```bash
-docker compose down -d
+docker compose down
 ```
 ⸻
 
